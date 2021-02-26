@@ -1,7 +1,3 @@
-# nlw4-moveit
-Next Level Week 4 - 02-2021
-
-![move.it](images/moveit.png)
 
 ## [Layout](https://www.figma.com/file/oi1MBHjuH3yIFknW59qfKo/Move.it-1.0-(Copy)?node-id=160%3A2761)
 
