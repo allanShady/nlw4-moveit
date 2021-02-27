@@ -1,5 +1,6 @@
-import { createContext, ReactNode, useState } from "react"
+import { createContext, ReactNode, useEffect, useState } from "react"
 import challenges from '../api/challenges.json'
+import Cookies from 'js-cookie'
 
 interface Challenge {
     type: string;
@@ -20,15 +21,19 @@ interface ChallengesContextData {
 }
 
 interface ChallengesProviderProps {
-    children: ReactNode
+    children: ReactNode,
+    level: number
+    currentExperience: number 
+    completedChallenges: number
 }
 
 export const ChallengesContext = createContext({} as ChallengesContextData)
 
-export function ChallengesContextProvider({ children }: ChallengesProviderProps) {
-    const [level, setLevel] = useState(1)
-    const [currentExperience, setCurrentExperience] = useState(0)
-    const [completedChallenges, setCompletedChallenges] = useState(0)
+export function ChallengesContextProvider({ children, ...rest }: ChallengesProviderProps) {
+    
+    const [level, setLevel] = useState( rest.level ?? 1)
+    const [currentExperience, setCurrentExperience] = useState(rest.currentExperience ?? 0)
+    const [completedChallenges, setCompletedChallenges] = useState(rest.completedChallenges ?? 0)
     
     const [activeChallenge, SetActiveChallenge] = useState(null)
  
@@ -36,6 +41,12 @@ export function ChallengesContextProvider({ children }: ChallengesProviderProps)
     const powToElevate = 2
     const experienceToNextLevel = Math.pow((level + 1) * levelDifficult,powToElevate)
     const levelUp = () => setLevel(level + 1)
+
+    useEffect(() => {
+        Cookies.set('level', String(level))
+        Cookies.set('currentExperience', String(currentExperience))
+        Cookies.set('completedChallenges', String(completedChallenges))
+    }, [level, currentExperience, completedChallenges])
     
     const resetChallenge = () => SetActiveChallenge(null)
 
