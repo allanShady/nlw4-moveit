@@ -3,7 +3,7 @@
     align-items: center;
     font-family: Rajdhani;
     font-weight: 600;
-    color: var (--tittle);
+    color: var(--title);
 }
 
 .countDownContainer > div {
@@ -69,8 +69,7 @@
     color: var(--text);
     cursor: not-allowed;
 
-    border-bottom: 0.4rem solid;
-    border-color: var(--green);
+    border-bottom: 0.4rem solid  var(--green);
 }
 
 .countdownButton img {

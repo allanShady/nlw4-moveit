@@ -1,35 +1,20 @@
-import { useState, useEffect } from 'react'
+import { useContext } from 'react';
+import { CountdownContext } from '../contexts/CountDownContext';
 import styles from '../styles/components/CountDown.module.css'
 
-let countdownTimeout: NodeJS.Timeout;
-
 export function CountDown() {
+    const {
+        minutes,
+        seconds,
+        hasFinished,
+        isActive,
+        startCountdown,
+        resetCountdown
+    } = useContext(CountdownContext)
 
-    const [time, setTime] = useState(0.1 * 60)
-    const [isActive, setIsActive] = useState(false);
-    const [hasFinished, setHasFinished] = useState(false);
 
-    const CURRENT_MINUTES = Math.floor(time / 60)
-    const CURRENT_SECONDS = time % 60
-
-    const [minuteLeft, minuteRight] = String(CURRENT_MINUTES).padStart(2, '0').split('');
-    const [secondLeft, secondRight] = String(CURRENT_SECONDS).padStart(2, '0').split('');
-
-    const startCountdown = () => setIsActive(true)
-    const resetCountdown = () => {
-        clearTimeout(countdownTimeout)
-        setIsActive(false)
-        setTime(25 * 60)
-    }
-
-    useEffect(() => {
-        if (isActive && time > 0)
-            countdownTimeout = setTimeout(() => setTime(time - 1), 1000)
-        else if (isActive && time == 0) {
-            setIsActive(false)
-            setHasFinished(true);
-        }
-    }, [isActive, time])
+    const [minuteLeft, minuteRight] = String(minutes).padStart(2, '0').split('');
+    const [secondLeft, secondRight] = String(seconds).padStart(2, '0').split('');
 
     return (
         <div>
@@ -49,8 +34,8 @@ export function CountDown() {
                 hasFinished
                     ? (<button type="button" disabled
                         className={styles.countdownButton}>
-                        Cycle closed 
-                        <img src="icons/check_circle.svg" alt="check mark"/>
+                        Cycle closed
+                        <img src="icons/check_circle.svg" alt="check mark" />
                     </button>)
                     : (<>
                         { isActive ?
@@ -58,7 +43,7 @@ export function CountDown() {
                                 className={`${styles.countdownButton} ${styles.countdownButtonActive}`}
                                 onClick={resetCountdown}>
                                 Abort the cycle
-                                <img src="icons/close.svg" alt="check mark"/>
+                                <img src="icons/close.svg" alt="check mark" />
                             </button>)
                             :
                             (<button type="button"
