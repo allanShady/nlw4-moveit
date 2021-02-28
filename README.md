@@ -16,8 +16,6 @@
   <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=15C3D6&labelColor=000000">
 </p>
 
-#
-
 ## 🚀 Techs
 
 - [Environment setup](www.notion.so/Instala-o-das-ferramentas-1c09af201b4b49c5bf1678842a96d9ab)
@@ -27,13 +25,9 @@
 - [Cookies](https://github.com/js-cookie/js-cookie)
 - [TypeScript](https://www.typescriptlang.org/)
 
-#
-
 ## 💻 Idea
 
 An application to remind **Developers** to practices health habits that count to their daily.
-
-#
 
 ## 🔖 Layout
 
@@ -41,8 +35,6 @@ Nos links abaixo você encontra o layout do projeto web e também do mobile. Voc
 
 - [Web Layout](https://www.figma.com/file/oi1MBHjuH3yIFknW59qfKo/Move.it-1.0)
 - [Mobile Layout]()
-
-#
 
 ## 🧘🏿‍ RoadMap
 
@@ -54,8 +46,6 @@ Nos links abaixo você encontra o layout do projeto web e também do mobile. Voc
 
 > To more details please see the version 2 layout on figma
 - [Features v2.0](https://www.figma.com/file/l8Zl7IYc5MzYdsumU469iT/Move.it-2.0-(Copy)?node-id=160%3A2761)
-
-#
 
 ## :memo: Licence
 
