@@ -44,7 +44,7 @@ Nos links abaixo você encontra o layout do projeto web e também do mobile. Voc
 
 #
 
-## :memo:🧘🏿‍  RoadMap
+## :memo: :🧘🏿‍ RoadMap
 
 - [ ] Authentication
 - [ ] PWA Support
@@ -57,7 +57,7 @@ Nos links abaixo você encontra o layout do projeto web e também do mobile. Voc
 
 #
 
-## :memo: Licença
+## :memo: Licence
 
 This project is under MIT Licence. Please refer to [LICENSE](LICENSE.md) file for more details.
 
