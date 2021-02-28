@@ -1,4 +1,21 @@
 
-## [Layout](https://www.figma.com/file/oi1MBHjuH3yIFknW59qfKo/Move.it-1.0-(Copy)?node-id=160%3A2761)
+# Set Me up
 
-## [Environment setup](https://www.notion.so/Instala-o-das-ferramentas-1c09af201b4b49c5bf1678842a96d9ab)
+```shell
+  # Clone the repo
+  $ gitclone https://github.com/allanShady/nlw4-moveit.git
+  
+  # Navigate to the source folder
+  $ cd source
+  
+  # Install dependences using yarn
+  $ yarn install
+```
+
+# Enjoy it
+
+```shell
+  # Run 
+  $ yarn dev 
+```
+> Then open the generated link with your prefered browser
