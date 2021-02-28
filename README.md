@@ -1,7 +1,5 @@
-# move.it
-
 <p align="center">
-  <a href="https://allancamilo.com"><img src='images/moveit.png' alt="move it" title="move.it" height='400rem' width="470rem"/></a>
+  <a href="https://allancamilo.com"><img src='images/moveit.png' alt="move it" title="move.it" height='400rem' width="490rem"/></a>
 </p>
 
 <p align="center">
