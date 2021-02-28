@@ -1,5 +1,6 @@
 <p align="center">
-  <a href="https://allancamilo.com"><img src='images/moveit.png' alt="move it" title="move.it" height='400rem' width="490rem"/></a>
+  <a href="https://allancamilo.com"><img src='images/moveit.png' alt="move it" title="move.it" height='300rem' width="390rem"/></a>
+  <a href="https://allancamilo.com"><img src='images/move-it-2.png' alt="move it" title="move.it" height='300rem' width="390rem"/></a>
 </p>
 
 <p align="center">
