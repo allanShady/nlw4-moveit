@@ -6,7 +6,7 @@
     <a href="#-techs">Techs</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
     <a href="#-idea">Idea</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
     <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-    <a href="#memo-roadmap">RoadMap</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+    <a href="#-roadmap">RoadMap</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
     <a href="#memo-licence">Licence</a>
 </p>
 
@@ -44,7 +44,7 @@ Nos links abaixo você encontra o layout do projeto web e também do mobile. Voc
 
 #
 
-## :memo: :🧘🏿‍ RoadMap
+## 🧘🏿‍ RoadMap
 
 - [ ] Authentication
 - [ ] PWA Support
