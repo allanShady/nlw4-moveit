@@ -1,14 +1,14 @@
 <p align="center">
   <img src='images/moveit.png' alt="move it" title="move.it" height='320rem' width="400rem"/>
-  <img src='images/move-it-2.png' alt="move it" title="move.it" height='320rem' width="500rem"/>
+  <img src='images/move-it-2.png' alt="move it" title="move.it" height='320rem' width="420rem"/>
 </p>
 
 <p align="center">
     <a href="#-idea">Idea</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
     <a href="#-techs">Techs</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
     <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-    <a href="/docs/readme.md">Try Out</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-    <a href="#-roadmap">Road Map</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+    <a href="https://github.com/allanShady/nlw4-moveit/blob/main/docs/README.md">TryOut</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+    <a href="#-roadmap">RoadMap</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
     <a href="#memo-licence">Licence</a>
 </p>
 
@@ -37,7 +37,7 @@ Copy the figma layout using the links bellow. You may hava a [Figma](http://figm
 - [Web Layout](https://www.figma.com/file/oi1MBHjuH3yIFknW59qfKo/Move.it-1.0)
 - [Mobile Layout]()
 
-## 🧘🏿‍ Road Map
+## 🧘🏿‍ RoadMap
 
 - [ ] Authentication
 - [ ] PWA Support
