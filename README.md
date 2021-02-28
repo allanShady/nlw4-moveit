@@ -1,6 +1,8 @@
 # move.it
 
-![move.it](images/moveit.png)
+<p align="center">
+  <a href="https://allancamilo.com"><img src='images/moveit.png' alt="move it" title="move.it" height='400rem' width="470rem"/></a>
+</p>
 
 <p align="center">
     <a href="#-techs">Techs</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
