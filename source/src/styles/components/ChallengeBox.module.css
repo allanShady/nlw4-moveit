@@ -1,7 +1,7 @@
 .challengeBoxContainer {
     height: 100%;
 
-    background: var(--white);
+    background: rgba(225, 225, 225, 0.05);
     border-radius: 5px;
     box-shadow: 0 0 60px rgba(0, 0, 0, 0.05);
     padding: 1.5rem 2rem;
@@ -47,7 +47,7 @@
 }
 
 .challengeActive header {
-    color: var(--blue);
+    color: var(--title);
     font-weight: 600;
     font-size: 1.25rem;
     padding: 0 2rem 1.5rem;
@@ -65,12 +65,13 @@
 .challengeActive main strong {
     font-size: 2rem;
     font-weight: 600;
-    color: var(--title);
+    color: var(--white);
     margin: 1.5rem 1rem;
 }
 
 .challengeActive main p {
-    line-height: 2rem;
+    line-height: 1.7rem;
+    color: var(--white);
 }
 
 .challengeActive footer {
@@ -106,6 +107,6 @@
 }
 
 .challengeActive footer button:hover {
-    background: var(--red);
+
     filter: brightness(0.9);
 }

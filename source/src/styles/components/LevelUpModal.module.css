@@ -33,12 +33,12 @@
 
 .container strong {
     font-size: 2.25rem;
-    color: var(--title);
+    color: var(--text-secondary);
 }
 
 .container p {
     font-size: 1.25rem;
-    color: var(--text);
+    color: var(--text-secondary);
     margin-top: 0.25rem;
 }
 

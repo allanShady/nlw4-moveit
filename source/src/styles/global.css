@@ -6,15 +6,17 @@
 
 :root {
     --white: #fff;
-    --background: #f2f3f5;
+    --background: linear-gradient(0deg,#b5ffda 3.85%,#8ce5ce 13.14%,#23a4b1 33.95%,#008ea7 40.76%,#0087a0 43.73%,#00516a 69.85%,#003049 89.38%,#00233c);
     --gray-line: #DCDDE0;
-    --text: #666666;
+    --text: white;
+    --text-secondary: #23a4b1;
     --text-highlight: #B3B9FF;
-    --title: #2E384D;
+    --title: #white;
     --red: #E83F5B;
-    --green: #4CD62B;
-    --blue: #5965E0;
-    --blue-dark: #4953B8;
+    --green: #23a4b1;
+    --blue: #23a4b1;
+    /* --blue: rgba(5,37,59,.21);;*/
+    --blue-dark: #0087a0;
     --blue-twitter: #2AA9E0;
 }
 
