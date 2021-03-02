@@ -1,6 +1,7 @@
+
 <p align="center">
-  <img src='images/moveit.png' alt="move it" title="move.it" height='320rem' width="400rem"/>
-  <img src='images/move-it-2.png' alt="move it" title="move.it" height='320rem' width="420rem"/>
+    <img src='images/healthier-dev.png' alt="healthier dev" title="healthier dev" />
+    <img src='images/healthier-dev-2.png' alt="healthier dev level up" title="healthier dev level up" />
 </p>
 
 <p align="center">
